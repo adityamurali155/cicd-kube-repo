@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Fetch code'){
             steps{
-                git branch: 'main', url: 'https://github.com/adityamurali155/my-app.git'
+                git branch: 'main', url: 'https://github.com/adityamurali155/vprofile.git'
             }
         }
         stage('Build'){
